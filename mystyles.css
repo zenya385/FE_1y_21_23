@@ -1,0 +1,61 @@
+/* .title {
+  color: red;
+}
+
+h1 {
+  color: red;
+}
+
+#title,
+.title,
+h1 {
+  color: rgb(207, 18, 191);
+} */
+
+.title {
+  font-family: "Qwitcher Grypen";
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text-1 {
+  font-family: Roboto serif;
+  font-size: 30px;
+  font-weight: 500;
+
+}
+
+.text-2 {
+  font-family: Tangerine;
+  font-size: 30px;
+  font-weight: 500;
+}
+
+.text-3 {}
+
+
+a{
+  color: red; 
+  text-decoration: none;
+}
+
+li,ul{
+  list-style: none;
+}
+
+.list{
+
+}
+
+.hero-title{
+
+}
+.hero{}
+
+#hero{}
+
+#hero-title{}
+
+button[type=button]{
+  color:green
+}
