@@ -1,0 +1,61 @@
+a {
+  text-decoration: none;
+}
+
+a {
+  text-decoration: green wavy underline;
+}
+
+.link {
+  margin-right: 20px;
+  border: 1px solid #000;
+  margin-bottom: 330px;
+}
+
+header a  {
+}
+
+
+nav a {
+}
+
+/* Загальні стилі для всіх типів повідомлень */
+
+/*  */
+
+.alert {
+font-size: 24px;
+font-weight: 800;
+font-style: italic;
+}
+
+/* Специфічні стилі для кожного типу */
+.success {
+color: green;
+background-color: #e6abab;
+}
+
+.warning {
+color: orange;
+}
+
+.error {
+color: red;
+}
+
+/*=========================== стилі тексту */
+
+.text{
+  color:red
+}
+
+p a{
+  color:aqua;
+text-decoration: none;
+}
+
+main a{
+    color:rgb(255, 0, 179);
+text-decoration: none;
+}
+

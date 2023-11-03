@@ -1,34 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS</title>
-</head>
-<!-- header+main+footer -->
-<!-- a{Logo}+nav>ul>li*4>a{item_$} -->
-<body>
-     <header><a href="">Logo</a>
-     <nav>
-        <ul>
-            <li><a href="">item_1</a></li>
-            <li><a href="">item_2</a></li>
-            <li><a href="">item_3</a></li>
-            <li><a href="">item_4</a></li>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <!-- header+main+footer -->
+  <!-- a{Logo}+nav>ul>li*4>a{item_$} -->
+  <body>
+    <header>
+      <a href="">Logo</a>
+      <nav>
+        <ul class="nav-main">
+          <li><a href="">item_1</a></li>
+          <li><a href="">item_2</a></li>
+          <li><a href="">item_3</a></li>
+          <li><a href="">item_4</a></li>
         </ul>
-        <ul>
-            <li><a href="tel:+380971112233">+38097 111 22 33</a></li>
-            <li><a href="mailto:qwerty@mail.com">qwerty@mail.com</a></li>
-            <li><a href="#contact">contact</a></li>
+        <ul class="nav-contact">
+          <li class="nav-contact-item">
+            <a href="tel:+380971112233" class="nav-contact-link"
+              >+38097 111 22 33</a
+            >
+          </li>
+          <li class="nav-contact-item">
+            <a href="mailto:qwerty@mail.com" class="nav-contact-link"
+              >qwerty@mail.com</a
+            >
+          </li>
+          <li class="nav-contact-item">
+            <a href="#contact" class="nav-contact-link">contact</a>
+          </li>
         </ul>
-     </nav></header>
-     <main></main>
-     <footer>
- <ul id="contact">
-            <li><a href="tel:+380971112233">+38097 111 22 33</a></li>
-            <li><a href="mailto:qwerty@mail.com">qwerty@mail.com</a></li>>
- </ul>
-     </footer>
+      </nav>
+    </header>
+    <main>
+      <a href="#" class="link">qwerty</a><br />
+      <a href="#" class="link">qwert</a>
 
-</body>
+      <p class="alert success">Поповнення рахунку виконано</p>
+      <p class="alert warning">Увага, будуть змінені тарифи</p>
+      <p class="alert error">Помилка проведення транзакції</p>
+
+      <h1 class="title">Привіт, я Mango.</h1>
+      <p class="text">
+        Ласкаво просимо на мою особисту сторінку. Тут можна подивитися
+        <a class="text-link" href="">проєкти</a>.
+      </p>
+    </main>
+    <footer>
+      <ul id="contact">
+        <li><a href="tel:+380971112233">+38097 111 22 33</a></li>
+        <li><a href="mailto:qwerty@mail.com">qwerty@mail.com</a></li>
+      </ul>
+    </footer>
+  </body>
 </html>
