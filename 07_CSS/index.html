@@ -4,44 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>CSS</title>
-    <link rel="stylesheet" href="./css/style.css" />
+   <link rel="stylesheet" href="css/style.css">
   </head>
   <!-- header+main+footer -->
   <!-- a{Logo}+nav>ul>li*4>a{item_$} -->
   <body>
     <header>
-      <a href="">Logo</a>
+      <a href="#" class="logo">Logo</a>
       <nav>
-        <ul class="nav-main">
-          <li><a href="">item_1</a></li>
-          <li><a href="">item_2</a></li>
-          <li><a href="">item_3</a></li>
-          <li><a href="">item_4</a></li>
-        </ul>
-        <ul class="nav-contact">
-          <li class="nav-contact-item">
-            <a href="tel:+380971112233" class="nav-contact-link"
-              >+38097 111 22 33</a
-            >
-          </li>
-          <li class="nav-contact-item">
-            <a href="mailto:qwerty@mail.com" class="nav-contact-link"
-              >qwerty@mail.com</a
-            >
-          </li>
-          <li class="nav-contact-item">
-            <a href="#contact" class="nav-contact-link">contact</a>
-          </li>
+        <ul class="nav-main" id="list">
+          <li class="item"><a href="http://item_1" class="link">item_1</a></li>
+          <li class="item"><a href="http://item_2" class="link">item_2</a></li>
+          <li class="item"><a href="http://item_3" class="link">item_3</a></li>
+          <li class="item"><a href="http://item_4" class="link">item_4</a></li>
         </ul>
       </nav>
+      <ul class="nav-contact">
+        <li class="nav-contact-item">
+          <a href="tel:+380971112233" class="nav-contact-link"
+            >+38097 111 22 33</a
+          >
+        </li>
+        <li class="nav-contact-item">
+          <a href="mailto:qwerty@mail.com" class="nav-contact-link"
+            >qwerty@mail.com</a
+          >
+        </li>
+        <li class="nav-contact-item">
+          <a href="#contact" class="nav-contact-link">contact</a>
+        </li>
+      </ul>
     </header>
-    <main>
+    <main class="content">
       <a href="#" class="link">qwerty</a><br />
       <a href="#" class="link">qwert</a>
 
-      <p class="alert success">Поповнення рахунку виконано</p>
-      <p class="alert warning">Увага, будуть змінені тарифи</p>
-      <p class="alert error">Помилка проведення транзакції</p>
+      <p class="">Поповнення рахунку виконано</p>
+      <p class="">Увага, будуть змінені тарифи</p>
+      <p class="">Помилка проведення транзакції</p>
 
       <h1 class="title">Привіт, я Mango.</h1>
       <p class="text">

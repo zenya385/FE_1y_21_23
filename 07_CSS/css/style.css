@@ -1,3 +1,13 @@
+:root{
+--color-logo: green;
+--color-text: #5e1111;
+--color-primery:#212121;
+--color-contact:#757575;
+}
+
+
+
+
 a {
   text-decoration: none;
 }
@@ -8,13 +18,12 @@ a {
 
 .link {
   margin-right: 20px;
-  border: 1px solid #000;
+  border: 1px solid var(--color-text);
   margin-bottom: 330px;
 }
 
-header a  {
+header a {
 }
-
 
 nav a {
 }
@@ -24,38 +33,79 @@ nav a {
 /*  */
 
 .alert {
-font-size: 24px;
-font-weight: 800;
-font-style: italic;
+  font-size: 24px;
+  font-weight: 800;
+  font-style: italic;
 }
 
 /* Специфічні стилі для кожного типу */
 .success {
-color: green;
-background-color: #e6abab;
+  color: var(--color-text);
+  background-color: #e6abab;
 }
 
 .warning {
-color: orange;
+  color: var(--color-text);
 }
 
 .error {
-color: red;
+  color: red;
 }
 
 /*=========================== стилі тексту */
 
-.text{
-  color:red
+.text {
+  color: var(--color-text);
 }
 
-p a{
-  color:aqua;
-text-decoration: none;
+p a {
+  color: var(--color-text);
+  text-decoration: none;
 }
 
-main a{
-    color:rgb(255, 0, 179);
-text-decoration: none;
+main a {
+  color: rgb(255, 0, 179);
+  text-decoration: none;
 }
 
+/* ========================================= */
+
+/* селектор тегу */
+a {
+  color: red;
+}
+
+/* селектор класу */
+.logo {
+  color: green;
+}
+.content{
+  color: rgba(31, 189, 189, 0.493);
+}
+
+/* селектор ідентифікатора */
+#list{
+  color:blue
+}
+
+/* селектор атрибуту */
+
+ a [href^="http://"]  {
+
+} 
+
+
+
+/* Яким буде колір тексту абзаців? */
+p {
+color: blue;
+background-color: orange;
+}
+
+
+
+
+
+p {
+color: teal;
+}
