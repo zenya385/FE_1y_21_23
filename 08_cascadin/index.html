@@ -4,35 +4,61 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
     <!--% ==== 1. Каскад стилів ================================ -->
 
-    
     <!--% ==== 2. Специфічність селектора ====================== -->
 
     <!--$ ========Селектори 4-го =============
      <!--#   рангу Кожен селектор елемента і псевдоелемента додає одиницю до четвертого рангу-->
-<article>
-  <h1>Lorem ipsum dolor sit amet</h1>
-  <p>
-    Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati commodi,
-    veritatis nihil alias iste odit similique sit eius optio veniam, impedit
-    cumque fuga facere labore quo id necessitatibus quaerat rerum.
-  </p>
-  <a href="">Читати далі...</a>
-</article>
-    <!--$ ========Селектори 3-го =============
+    <article>
+      <h1>Lorem ipsum dolor sit amet</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        commodi, veritatis nihil alias iste odit similique sit eius optio
+        veniam, impedit cumque fuga facere labore quo id necessitatibus quaerat
+        rerum.
+      </p>
+      <a href="">Читати далі...</a>
+    </article>
 
+    <!--$ ========Селектори 3-го =============
+<!--# Кожен селектор класу, атрибута і псевдокласу додає одиницю до третього рангу. -->
+
+    <article class="post">
+      <h1 class="post-title">Lorem ipsum dolor sit amet</h1>
+      <p>
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Obcaecati
+        commodi, veritatis nihil alias iste odit similique sit eius optio
+        veniam, impedit cumque fuga facere labore quo id necessitatibus quaerat
+        rerum.
+      </p>
+      <a href="" class="post-link">Читати далі...</a>
+    </article>
 
     <!--$ ========Селектори 2-го =============
-
+<!--# Кожен селектор ідентифікатора додає одиниць до другого рангу. -->
 
     <!--$ ========Селектори 1-го =============
+<!--# Вбудовані стилі додають одиницю до першого рангу, мають найвищу специфічність, і їх неможливо перевизначити через CSS. -->
 
-
-    <!--$ ========Селектори 4-го =============
     <!--% ==== 3. Наслідування властивостей ==================== -->
     <!--% ==== 4. Псевдокласи стану та структурні псевдокласи=== -->
+
+    <div class="box">
+      <h2>hello</h2>
+      <p>lorem10</p>
+    </div>
+
+    <ul>
+      <li>item_1</li>
+      <li>item_2</li>
+      <li>item_3</li>
+      <li>item_4</li>
+      <li>item_5</li>
+      <li>item_6</li>
+    </ul>
   </body>
 </html>

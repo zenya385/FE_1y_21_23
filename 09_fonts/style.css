@@ -1,0 +1,58 @@
+.title {
+  font-family: "Roboto";
+  font-size: 50px;
+  text-align: center;
+  /* font-weight: 800; */
+  text-transform: uppercase;
+}
+
+h2 {
+  font-family: "Raleway";
+  text-align: center;
+  font-weight: 800;
+}
+
+p {
+  font-size: 20px;
+  line-height: 1.6;
+  text-transform: uppercase;
+}
+
+pre {
+  font-family: "Arial", "Helvetica", sans-serif;
+  color: #2a2a2a;
+  font-size: 16px;
+}
+
+pre::first-letter {
+  font-family: "Tahoma", serif;
+  font-size: 32px;
+  font-weight: 700;
+  color: #36e7f4;
+  font-style: italic;
+  margin-right: 10px;
+}
+
+/* pre::selection {
+  color: greenyellow;
+  background-color: red;
+} */
+pre:first-child::first-line {
+  /* font-family: "Tahoma", serif;
+  font-size: 22px;
+  font-style: italic; */
+
+  /* background-color: aqua; */
+  color: rgb(134, 7, 134);
+}
+
+h1::after {
+  content: "🐝";
+  /* width: 10px; */
+}
+h1::before {
+  content: "🐝";
+  /* width: 10px; */
+}
+  <link rel="stylesheet"
+    href="https://cdn.jsdelivr.net/gh/jgthms/minireset.css@master/minireset.min.css">

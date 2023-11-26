@@ -1,25 +1,29 @@
-:root{
---color-logo: green;
---color-text: #5e1111;
---color-primery:#212121;
---color-contact:#757575;
+:root {
+  --color-logo: green;
+  --color-text: #5e1111;
+  --color-primery: #212121;
+  --color-contact: #757575;
 }
 
-
-
+body{
+  font-size: 20px;
+  font-weight: bolder;
+font-style: italic;
+}
 
 a {
   text-decoration: none;
 }
 
 a {
-  text-decoration: green wavy underline;
+  /* text-decoration: green wavy underline; */
 }
 
 .link {
   margin-right: 20px;
-  border: 1px solid var(--color-text);
+  /* border: 1px solid var(--color-text); */
   margin-bottom: 330px;
+  font-weight: normal;
 }
 
 header a {
@@ -33,9 +37,7 @@ nav a {
 /*  */
 
 .alert {
-  font-size: 24px;
-  font-weight: 800;
-  font-style: italic;
+
 }
 
 /* Специфічні стилі для кожного типу */
@@ -79,33 +81,66 @@ a {
 .logo {
   color: green;
 }
-.content{
+.content {
   color: rgba(31, 189, 189, 0.493);
 }
 
 /* селектор ідентифікатора */
-#list{
-  color:blue
+#list {
+  color: blue;
 }
 
 /* селектор атрибуту */
 
- a [href^="http://"]  {
-
-} 
-
-
+a [href^="http://"]
+{
+}
 
 /* Яким буде колір тексту абзаців? */
 p {
-color: blue;
-background-color: orange;
+  color: blue;
+  background-color: orange;
 }
 
-
-
-
-
 p {
-color: teal;
+  color: teal;
+}
+
+ul>li {
+  color: teal;
+}
+
+.nav-main li {
+  color: rgb(74, 12, 188);
+ 
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 15px;
+}
+#list {
+}
+
+[href] {
+}
+
+a[werty] .wer {
+  color: fuchsia;
+}
+
+.hero button {
+}
+
+a[href][title][ertyu] {
+  /* така властивість спрацює тільки для посилань, */
+  color: var(--color-text); /* які одночасно містять атрибути href та title */
+}
+
+a,
+p,
+h1,
+h2,
+h3 {
+  color: aqua;
 }
