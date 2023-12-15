@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+a {
+  text-decoration: none;
+}
+ul,
+li {
+  list-style: none;
+}
+/* ============= центрувальний контейнер ========== */
+.container {
+  width: 1170px;
+  margin: 0 auto;
+  /* padding: 0 15px; */
+}
+
+.card {
+  border: 1px solid #000;
+}
+.card-list {
+  background-color: #19d2d2;
+  display: flex;
+  padding-top: 40px;
+  justify-content: center;
+}
+
+.card-item {
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.card-item:not(:last-child) {
+  margin-right: 10px;
+}
+.card-item img {
+  margin-bottom: 30px;
+}
+.card-item h3 {
+  margin-bottom: 10px;
+}
+.card-item img {
+}
