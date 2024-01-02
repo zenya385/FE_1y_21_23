@@ -5,23 +5,48 @@
 }
 a {
   text-decoration: none;
+  color: currentColor;
 }
 ul,
 li {
   list-style: none;
+  color: rgb(231, 23, 169);
+}
+
+/* ============= загальні тсилі тексту ========== */
+.font-basic {
+  font-family: "Times New Roman", sans serif;
+  font-size: 25px;
+  line-height: 1.3;
+  color: #000;
 }
 /* ============= центрувальний контейнер ========== */
 .container {
-  width: 1170px;
+  width: 1200px;
   margin: 0 auto;
-  /* padding: 0 15px; */
+  padding: 0 15px;
+}
+/* ====================== header ======================== */
+.header {
+  /* font-family: "Times New Roman", sans serif;
+  font-size: 25px;
+  line-height: 1.3;
+  color: #000; */
 }
 
+/* ====================== section card ======================== */
 .card {
-  border: 1px solid #000;
+  background-color: #19d2d2;
+  /* font-family: "Times New Roman", sans serif;
+  font-size: 25px;
+  line-height: 1.3;
+  color: #000; */
+  /* border: 1px solid #000; */
+}
+.card h2 {
+  text-align: center;
 }
 .card-list {
-  background-color: #19d2d2;
   display: flex;
   padding-top: 40px;
   justify-content: center;
