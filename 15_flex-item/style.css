@@ -1,10 +1,19 @@
+img {
+  margin: 0;
+  padding: 0;
+  display: block;
+  /* width: 100%; */
+}
+
 .list {
+  width: 800px;
   list-style: none;
-  height: 50vh;
+  /* height: 50vh; */
   display: flex;
-  column-gap: 30px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
 }
 
 .item {
@@ -13,28 +22,36 @@
   border: 1px solid #000;
   border-radius: 5px;
   background-color: #1aade7;
-  padding: 17px 25px;
   text-align: center;
+  max-width: 370px;
+  min-width: 250px;
+  /* width: ; */
+  width: calc((100% - 3 * 30px) / 3);
+  padding: 17px 25px;
 }
 
+/* .element {
+  flex-basis: calc((100% - к-ть маржинів * значення маржина) / к-ть елементів);
+} */
+
 .item:nth-child(1) {
-  flex-grow: 1;
-  flex-shrink: 1;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
 }
 .item:nth-child(2) {
-  flex-grow: 3;
-  flex-shrink: 3;
+  /* flex-grow: 3; */
+  /* flex-shrink: 3; */
   /* align-self: end; */
 }
 .item:nth-child(3) {
-  flex-grow: 1;
-  flex-shrink: 1;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
 }
 .item:nth-child(4) {
-  flex-grow: 2;
-  flex-shrink: 3;
+  /* flex-grow: 2; */
+  /* flex-shrink: 3; */
 }
 .item:nth-child(5) {
-  flex-grow: 1;
-  flex-shrink: 1;
+  /* flex-grow: 1; */
+  /* flex-shrink: 1; */
 }
