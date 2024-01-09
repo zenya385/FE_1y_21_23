@@ -1,0 +1,24 @@
+body {
+  width: 150px;
+}
+.title {
+  font-size: 30px;
+  width: 50%;
+}
+
+.text {
+  width: 50vw;
+  height: 50vh;
+}
+
+.logo {
+  text-decoration: none;
+  font-size: 35px;
+  font-weight: bold;
+
+  color: red;
+}
+
+.studio {
+  color: aqua;
+}
