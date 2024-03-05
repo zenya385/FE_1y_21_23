@@ -39,8 +39,11 @@ li {
 }
 .before-list-item {
   border: 1px solid #000;
+  padding-bottom: 20px;
 }
 .before-title {
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .before-title::before {
   content: "";
@@ -48,7 +51,7 @@ li {
   height: 170px;
   background-color: #f28787;
   background-image: url("https://cdn0.iconfinder.com/data/icons/essentials-volume-6/128/apple-512.png");
-  background-size: contain;
+  background-size: 100px 100px;
   background-repeat: no-repeat;
   background-position: center;
 }
