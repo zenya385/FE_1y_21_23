@@ -1,0 +1,36 @@
+.box {
+  position: relative;
+  width: 500px;
+  height: 500px;
+  border: 1px solid #000;
+  margin: auto;
+  margin-top: 200px;
+  background-color: greenyellow;
+  overflow: hidden;
+  writing-mode: vertical-lr;
+
+}
+
+.overlay {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: red;
+    top: 0;
+    left: 0;
+    transform: translateX(100%);
+    transition: transform  500ms ease-in-out;
+}
+
+.box:hover .overlay{
+    transform: translateY(0);
+}
+
+.text{
+    text-align: center;
+    text-orientation: sideways;
+
+    /* display: inline-block;
+    vertical-align: middle;
+    color: blue; */
+}
