@@ -34,3 +34,28 @@
     vertical-align: middle;
     color: blue; */
 }
+
+
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: -1px;
+padding: 0;
+overflow: hidden;
+border: 0;
+clip: rect(0 0 0 0);
+}
+
+
+.bg{
+    
+    padding: 190px;
+    padding-bottom: 190px;
+    height: 400px;
+background-image: url(https://www.pngplay.com/wp-content/uploads/13/Freepngimg-Download-Free-PNG.png), url('https://img.freepik.com/free-photo/painting-mountain-lake-with-mountain-background_188544-9126.jpg'); 
+background-repeat: no-repeat;
+background-size:70px 70px, cover;
+background-position: right 100px top 20px, center;
+}
