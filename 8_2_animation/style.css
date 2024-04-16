@@ -1,0 +1,29 @@
+.animation-img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  animation-name: sun;
+  animation-duration: 5s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+}
+
+@keyframes img {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes sun {
+  0% {
+    transform: scale(1);
+  }
+
+  100% {
+    transform: scale(1.75);
+  }
+}
