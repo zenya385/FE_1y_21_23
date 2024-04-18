@@ -1,14 +1,19 @@
 .animation-img {
   width: 150px;
   height: 150px;
+display: block;
+margin: 100px auto;
+
   border-radius: 50%;
-  animation-name: sun;
+  animation-name: rotate;
   animation-duration: 5s;
   animation-timing-function: linear;
   animation-iteration-count: infinite;
 }
 
-@keyframes img {
+
+
+@keyframes rotate {
   0% {
     transform: rotate(0deg);
   }
