@@ -1,5 +1,5 @@
 .services {
-    color: #333;
+    color: $primaryTitle;
     font-weight: 400;
   
     margin-top: 65px;
@@ -25,7 +25,7 @@
   .services-line {
     width: 60px;
     height: 4px;
-    background-color: #F38181;
+    background-color: $bgLine;
     margin-top: 40px;
     margin-bottom: 65px;
   }

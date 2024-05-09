@@ -274,34 +274,28 @@ body {
   justify-content: space-between;
   align-items: center;
 }
-
-.header-logo {
-  color: #95e1d3;
+.header .header-logo {
+  color: red;
   font-family: Montserrat;
   font-size: 30px;
   font-weight: 700;
 }
-
-.slice-logo {
+.header .header-logo .slice-logo {
   color: #f38181;
 }
-
-.nav-list {
+.header .nav-list {
   display: flex;
   gap: 50px;
 }
-
-.nav-link {
+.header .nav-list .nav-link {
   color: #95e1d3;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
 }
-
-.nav-link:hover {
+.header .nav-list .nav-link:hover {
   color: #f38181;
 }
-
 .container {
   width: 1200px;
   margin: 0 auto;
@@ -331,7 +325,7 @@ body {
 .services-line {
   width: 60px;
   height: 4px;
-  background-color: #F38181;
+  background-color: #f38181;
   margin-top: 40px;
   margin-bottom: 65px;
 }

@@ -3,37 +3,43 @@
     padding: 17px 0;
     justify-content: space-between;
     align-items: center;
-  }
   
-  .header-logo {
-    color: #95e1d3;
+  
+    .header-logo {
+    // color: $secondLogo;
+    color: red;
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 700;
+
+    .slice-logo {
+      color:$primaryLogo;
+    }
   }
   
-  .slice-logo {
-    color: #f38181;
-  }
   
   .header-nav {}
   
   .nav-list {
     display: flex;
     gap: 50px;
-  }
+
   
   .nav-link {
-    color: #95e1d3;
+    color: $secondLogo;
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;
+
+    &:hover {
+      color:$primaryLogo;
+    }
   }
   
   .nav-item {}
   
   .nav-link {}
   
-  .nav-link:hover {
-    color: #f38181;
-  }
+}
+
+}

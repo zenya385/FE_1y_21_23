@@ -1,7 +1,7 @@
 .footer {}
 
 .footer-copyrigth {
-  color: #333;
+  color: $primaryTitle;
   text-align: center;
   font-family: Montserrat;
   font-size: 14px;
@@ -9,7 +9,7 @@
 }
 
 .Laaqiq {
-  color: #f38181;
+  color: $primaryLogo;
 }
 
 .form {}
@@ -17,7 +17,7 @@
 .form-input {}
 
 .form-btn {
-  color: #fff;
+  color: $btnText;
   text-align: center;
   font-family: Montserrat;
   font-size: 14px;

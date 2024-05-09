@@ -5,14 +5,14 @@
   }
   
   .team-subtitle {
-    color: #333;
+    color: $primaryTitle;
     font-family: "Kaushan Script";
     font-size: 24px;
     font-weight: 400;
   }
   
   .team-title {
-    color: #333;
+    color: $primaryTitle;
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 700;
@@ -50,7 +50,7 @@
   }
   
   .team-item-title {
-    color: #333;
+    color: $primaryTitle;
     text-align: center;
     font-family: Montserrat;
     font-size: 14px;
