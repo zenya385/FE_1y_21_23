@@ -1,13 +1,14 @@
 .header {
+  @extend %container;
+
     display: flex;
     padding: 17px 0;
     justify-content: space-between;
     align-items: center;
-  
-  
+    
+    
     .header-logo {
-    // color: $secondLogo;
-    color: red;
+    color: $secondLogo;
     font-family: Montserrat;
     font-size: 30px;
     font-weight: 700;
@@ -24,9 +25,11 @@
     display: flex;
     gap: 50px;
 
-  
-  .nav-link {
+
+   .nav-link {
+    // color: $logo-color;
     color: $secondLogo;
+
     font-family: Montserrat;
     font-size: 14px;
     font-weight: 400;

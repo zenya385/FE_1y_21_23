@@ -1,22 +1,16 @@
 .team {
+  @extend %container;
     text-align: center;
     margin-top: 100px;
     
   }
   
   .team-subtitle {
-    color: $primaryTitle;
-    font-family: "Kaushan Script";
-    font-size: 24px;
-    font-weight: 400;
+  @extend %subtitle;
   }
   
   .team-title {
-    color: $primaryTitle;
-    font-family: Montserrat;
-    font-size: 30px;
-    font-weight: 700;
-    font-variant: all-small-caps;
+  @extend %title;
     margin-top: 17px;
   }
   

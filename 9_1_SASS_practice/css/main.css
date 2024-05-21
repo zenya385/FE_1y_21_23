@@ -268,6 +268,30 @@ body {
   line-height: normal;
 }
 
+.team-subtitle, .services .services-subtitle {
+  font-family: Kaushan Script;
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 1.41;
+  text-align: center;
+  color: #333;
+}
+
+.team-title, .services .services-title {
+  font-family: Montserrat;
+  font-size: 30px;
+  font-weight: 700;
+  line-height: 1.2;
+  text-align: center;
+  font-variant: all-small-caps;
+  color: #333;
+}
+
+.footer, .team, .services, .header {
+  width: 1200px;
+  margin: 0 auto;
+}
+
 .header {
   display: flex;
   padding: 17px 0;
@@ -275,7 +299,7 @@ body {
   align-items: center;
 }
 .header .header-logo {
-  color: red;
+  color: #95e1d3;
   font-family: Montserrat;
   font-size: 30px;
   font-weight: 700;
@@ -296,58 +320,36 @@ body {
 .header .nav-list .nav-link:hover {
   color: #f38181;
 }
-.container {
-  width: 1200px;
-  margin: 0 auto;
-}
-
 .services {
   color: #333;
   font-weight: 400;
   margin-top: 65px;
 }
-
-.services-subtitle {
-  font-family: "Kaushan Script";
-  font-size: 24px;
-  text-align: center;
-}
-
-.services-title {
-  font-family: Montserrat;
-  font-size: 30px;
-  font-weight: 700;
-  font-variant: all-small-caps;
-  text-align: center;
+.services .services-title {
   margin-top: 20px;
 }
-
-.services-line {
+.services .services-line {
   width: 60px;
   height: 4px;
   background-color: #f38181;
   margin-top: 40px;
   margin-bottom: 65px;
 }
-
-.services-list {
+.services .services-list {
   display: flex;
   flex-wrap: wrap;
   gap: 100px 70px;
 }
-
-.services-item {
+.services .services-item {
   display: flex;
   -moz-column-gap: 20px;
        column-gap: 20px;
   width: calc((100% - 140px) / 3);
 }
-
-.services-image {
+.services .services-image {
   align-self: start;
 }
-
-.services-item-title {
+.services .services-item-title {
   /* uppercase */
   font-family: Montserrat;
   font-size: 14px;
@@ -355,32 +357,18 @@ body {
   font-variant: small-caps;
   margin-bottom: 20px;
 }
-
-.services-item-text {
+.services .services-item-text {
   color: #b6b6b6;
   font-size: 15px;
   font-weight: 400;
   line-height: 1.46;
 }
-
 .team {
   text-align: center;
   margin-top: 100px;
 }
 
-.team-subtitle {
-  color: #333;
-  font-family: "Kaushan Script";
-  font-size: 24px;
-  font-weight: 400;
-}
-
 .team-title {
-  color: #333;
-  font-family: Montserrat;
-  font-size: 30px;
-  font-weight: 700;
-  font-variant: all-small-caps;
   margin-top: 17px;
 }
 
@@ -429,19 +417,17 @@ body {
   font-weight: 300;
 }
 
-.footer-copyrigth {
+.footer .footer-copyrigth {
   color: #333;
   text-align: center;
   font-family: Montserrat;
   font-size: 14px;
   font-weight: 400;
 }
-
-.Laaqiq {
+.footer .Laaqiq {
   color: #f38181;
 }
-
-.form-btn {
+.footer .form-btn {
   color: #fff;
   text-align: center;
   font-family: Montserrat;

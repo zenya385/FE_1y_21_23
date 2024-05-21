@@ -1,4 +1,5 @@
-.footer {}
+.footer {
+  @extend %container;
 
 .footer-copyrigth {
   color: $primaryTitle;
@@ -23,4 +24,6 @@
   font-size: 14px;
   font-weight: 700;
   font-variant: all-small-caps;
+}
+
 }
