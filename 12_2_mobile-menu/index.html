@@ -7,12 +7,8 @@
     <link rel="stylesheet" href="./css/main.min.css" />
   </head>
   <body>
-    <header class="header">
+    <header class="header container">
       <a href="/">Logo</a>
-      <input type="checkbox" id="toggle" />
-      <label for="toggle">
-        <span class="toggle-btn"></span>
-      </label>
       <nav class="nav">
         <ul class="nav-list">
           <li class="nav-item">item</li>
@@ -20,14 +16,23 @@
           <li class="nav-item">item</li>
         </ul>
       </nav>
-      <ul class="reg-list">
         <ul class="reg-list">
           <li class="reg-item">singin</li>
           <li class="reg-item">singout</li>
         </ul>
-      </ul>
+    
+    <button class="btn-open-menu js-open-modal-menu">open</button>
     </header>
     <main></main>
     <footer></footer>
+
+    <!-- ==================== вся розмітка модалки модалки ========== -->
+    <div class="backdrop is-hidden js-modal-menu">
+        <div class="modal-menu">
+            <button class="btn-close js-close-modal-menu">закрити</button>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempore distinctio dolores commodi, tempora accusamus velit aliquid adipisci nihil sit error obcaecati perferendis sapiente laudantium consectetur nam odit sint vitae nemo vero? Nisi doloribus debitis sint illum sed voluptatibus nam, modi eum dignissimos accusamus! Libero, praesentium. Qui rerum fugit harum repudiandae.</p>
+        </div>
+    </div>
+<script type="module" src="./js/modal-menu.js"></script>
   </body>
 </html>

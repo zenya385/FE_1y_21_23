@@ -40,7 +40,6 @@ img {
 
 .container {
   min-width: 320px;
-  max-width: 1440px;
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -69,47 +68,45 @@ img {
   text-align: center;
 }
 
-@media (max-width: 768px) {
-  nav {
-    order: 1;
-  }
-  label {
-    display: block;
-    height: 30px;
-    position: relative;
-    top: 15px;
-  }
-  label span,
-  label span::before,
-  label span::after {
-    content: "";
-    display: block;
-    width: 25px;
-    height: 2px;
-    background: #333;
-    position: absolute;
-    right: 0;
-    transition: 0.3s;
-  }
-  label span::before {
-    top: -8px;
-  }
-  label span::after {
-    top: 8px;
-  }
-  .nav_menu {
-    display: none;
-  }
-  input[type=checkbox]:checked ~ .nav_menu {
-    display: flex;
-    flex-direction: column;
-  }
+.backdrop {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  opacity: 1;
 }
+
+.backdrop.is-hidden {
+  opacity: 0;
+  pointer-events: none;
+}
+
+.no-scroll {
+  overflow: hidden;
+}
+
+.modal-menu {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  padding: 15px;
+  background-color: skyblue;
+  transform: translate(-50%, -50%);
+}
+
 .header {
   display: flex;
   justify-content: space-between;
   padding: 25px 0;
   border: 1px solid #000;
+  position: relative;
+}
+.header .nav {
+  display: none;
 }
 .header .nav-list {
   display: flex;
@@ -117,9 +114,14 @@ img {
        column-gap: 15px;
 }
 .header .reg-list {
-  display: flex;
+  display: none;
   -moz-column-gap: 15px;
        column-gap: 15px;
+}
+.header .btn-open-menu {
+  position: absolute;
+  top: 20px;
+  right: 10px;
 }
 @media screen and (min-width: 768px) {
   .header {

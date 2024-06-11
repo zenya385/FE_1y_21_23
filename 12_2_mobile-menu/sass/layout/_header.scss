@@ -3,30 +3,36 @@
   justify-content: space-between;
   padding: 25px 0;
   border: 1px solid #000;
-
-  .nav-list{
+  position: relative;
+  .nav {
+    display: none;
+  }
+  .nav-list {
     display: flex;
     column-gap: 15px;
   }
-  
-  .reg-list{
-    display: flex;
+
+  .reg-list {
+    display: none;
     column-gap: 15px;
+  }
+  .btn-open-menu {
+    // display: none;
+    position: absolute;
+    top: 20px;
+    right: 10px;
   }
 
   // ==========================min-width: 480px=============================
-@media screen and (min-width: 480px) {
-  
-}
+  @media screen and (min-width: 480px) {
+  }
 
-// ==========================min-width: 768px=============================
+  // ==========================min-width: 768px=============================
   @media screen and (min-width: 768px) {
     width: 768px;
-  
   }
-// ==========================min-width: 1440px=============================
-@media screen and (min-width: 1440px) {
-  width: 1440px;
-}
-
+  // ==========================min-width: 1440px=============================
+  @media screen and (min-width: 1440px) {
+    width: 1440px;
+  }
 }
